@@ -1,0 +1,14 @@
+# App
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.faptic.recommendations: DEBUG
+    org.springframework.web: DEBUG
+
+faptic:
+  timeframe:
+    startDate: 2022-01-01
+    endDate: 2022-02-01
